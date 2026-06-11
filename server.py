@@ -1,3 +1,7 @@
+"""
+Flask web application for emotion detection using Watson NLP.
+"""
+
 from flask import Flask, render_template, request
 from EmotionDetection import emotion_detector
 
